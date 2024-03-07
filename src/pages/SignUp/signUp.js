@@ -48,7 +48,9 @@ const Signup = () => {
             <span className="label-text font-link 
             text-success  font-bold">Email</span>
           </label>
-          <input type="email" placeholder="Email" name='email' className="input input-bordered bg-accent" required />
+          <input type="email" placeholder="Email"
+           name='email' className="input input-bordered bg-accent" 
+           required />
         </div>
         <div className="form-control">
           <label className="label">
@@ -57,6 +59,16 @@ const Signup = () => {
           </label>
           <input type="password" placeholder="Password" 
           required name='password' className="input 
+          input-bordered bg-base-300" />
+         
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text text-success 
+           font-bold font-link">FingerPrint</span>
+          </label>
+          <input type="string" placeholder="FingerPrint" 
+          required name='fingerprint' className="input 
           input-bordered bg-base-300" />
          
         </div>

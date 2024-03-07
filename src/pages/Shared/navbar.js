@@ -20,7 +20,7 @@ const Navbar = () => {
     <li><Link className="text-success text-xl font-bold font-link" 
      to='/contact'>Contact</Link></li> 
     <li><Link className="text-success text-xl font-bold font-link"
-      to='/'>Dashboard</Link></li> 
+      to='/dashboard'>Dashboard</Link></li> 
     
     {
       user?.email?

@@ -68,6 +68,16 @@ const LogIn = () => {
              font-bold bg-base-200" required />
           </div>
           <div className="form-control">
+          <label className="label">
+            <span className="label-text text-success 
+           font-bold font-link">FingerPrint</span>
+          </label>
+          <input type="string" placeholder="FingerPrint" 
+          required name='fingerprint' className="input 
+          input-bordered bg-base-300" />
+         
+        </div>
+          <div className="form-control">
             <label className="label">
               <span className="label-text  text-success
               font-bold  font-link">Password</span>
